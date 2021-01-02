@@ -170,7 +170,6 @@ int HashStringTable::hashcode(string str) {
 
 void HashStringTable::rehash() {
 // TODO:
-    vector<string> new_elements;
     vector<string> temp = elements;
     int size = get_size();
     
